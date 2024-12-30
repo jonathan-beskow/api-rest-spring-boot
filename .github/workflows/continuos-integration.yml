@@ -25,7 +25,7 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
-      working-directory: ./api-rest-spring-boot/16-RestWithSpringBootUdemy-Files
+      working-directory: ./16-RestWithSpringBootUdemy-Files
       run: mvn clean package
 
     - name: Docker Compose Build
