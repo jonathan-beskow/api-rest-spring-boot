@@ -20,7 +20,7 @@ services:
     image: jonathanbeskow99/rest-with-spring-boot
     restart: always
     build:
-      context: .
+      context: ./16-RestWithSpringBootUdemy-Files
       dockerfile: Dockerfile
     working_dir: /16-RestWithSpringBootUdemy-Files
     environment:
